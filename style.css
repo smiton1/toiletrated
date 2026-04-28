@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+#logo{
+    height: 70px;
+}
+#hero{
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#hero_image{
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+#content{
+    margin: 0 auto;
+    width: 50%;
+}
+p{
+    line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+    line-height: 4;
+}
+footer{
+    margin: 0 auto;
+    width: 50%;
+}
